@@ -1,6 +1,7 @@
 # encoding: utf-8
 require 'singleton'
 require 'kconv'
+require 'active_support/version_switches'
 
 module ActiveSupport
   # The Inflector transforms words from singular to plural, class names to table names, modularized class names to ones without,
